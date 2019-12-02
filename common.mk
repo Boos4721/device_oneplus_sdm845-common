@@ -90,6 +90,7 @@ PRODUCT_PACKAGES += \
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.rc \
+    init.performance.rc \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
