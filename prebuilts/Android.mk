@@ -26,8 +26,16 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := OnePlusCameraService
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := priv-app/OnePlusCameraService/OnePlusCameraService.apk
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GoogleCamera
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := GoogleCamera.apk
+LOCAL_SRC_FILES := GoogleCamera7.0.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
+LOCAL_OVERRIDES_PACKAGES := Camera2
 include $(BUILD_PREBUILT)
+
