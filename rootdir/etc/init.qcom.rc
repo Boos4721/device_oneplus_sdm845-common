@@ -1,3 +1,11 @@
+on init
+    # OnePlus icon packs
+    mount none /system/product/overlay/EmptyOverlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_squircle/OnePlusIconShapeSquircleOverlay.apk bind
+    mount none /system/product/overlay/EmptyOverlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_circle/OnePlusIconShapeCircleOverlay.apk bind
+    mount none /system/product/overlay/EmptyOverlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_teardrop/OnePlusIconShapeTeardropOverlay.apk bind
+    mount none /system/product/overlay/EmptyOverlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_square/OnePlusIconShapeSquareOverlay.apk bind
+    mount none /system/product/overlay/EmptyOverlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_roundedrect/OnePlusIconShapeRoundedRectOverlay.apk bind
+
 on boot
     # Fingerprint
     chown system system /sys/devices/platform/soc/soc:goodix_fp/proximity_state
