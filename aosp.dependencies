@@ -14,5 +14,10 @@
     "target_path" : "packages/apps/PixelLiveWallpaper",
     "branch"      : "ten",
     "remote"      : "pixel-gitlab"
+  },
+  {
+    "repository"  : "yashsonawane/vendor_interfaces",
+    "target_path" : "vendor/interfaces",
+    "branch"      : "ten"
   }
 ]
