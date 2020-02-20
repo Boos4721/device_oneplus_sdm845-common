@@ -1,0 +1,18 @@
+[
+  {
+    "repository"  : "kernel_oneplus_sdm845",
+    "target_path" : "kernel/oneplus/sdm845",
+    "branch"      : "ten"
+  },
+  {
+    "repository"  : "TheMuppets/proprietary_vendor_oneplus",
+    "target_path" : "vendor/oneplus",
+    "branch"      : "lineage-17.1"
+  },
+  {
+    "repository"  : "packages_apps_PixelLiveWallpaper",
+    "target_path" : "packages/apps/PixelLiveWallpaper",
+    "branch"      : "ten",
+    "remote"      : "pixel-gitlab"
+  }
+]
