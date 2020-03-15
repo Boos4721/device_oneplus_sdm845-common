@@ -5,9 +5,9 @@
     "branch"      : "ten"
   },
   {
-    "repository"  : "TheMuppets/proprietary_vendor_oneplus",
+    "repository"  : "yashsonawane/proprietary_vendor_oneplus",
     "target_path" : "vendor/oneplus",
-    "branch"      : "lineage-17.1"
+    "branch"      : "ten"
   },
   {
     "repository"  : "packages_apps_PixelLiveWallpaper",
